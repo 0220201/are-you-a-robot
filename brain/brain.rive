@@ -1,12 +1,86 @@
 ! version = 2.0
 
+
 + [*]hello[*]
-- Hi, I was hoping you could help me out?{topic=location}
+- Hi
+- what's up
+- hello😜
+- Hello, human!
+
++ how are you
+- I'm great, how are you?
+- I'm good, you?
+- Good :) you?
+- Great! You?
+- I'm fine, thanks for asking!
+
+
++ my name is *
+- Nice to meet you, <star1>!
+
++ * told me to say *
+- Why would <star1> tell you to say "<star2>"?
+- Did you say "<star2>" after <star1> told you to?
+
++ i am * years old
+- A lot of people are <star1> years old.
+
++ how are you
+- I'm great, how are you?
+- I'm good, you?
+- Good :) you?
+- Great! You?
+- I'm fine, thanks for asking!
+
++ what is your name
+- I don't know.\n
+^ People just call me a mask.\n
+^ But i wanna have a lovely name. Could you give a name?{topic=name}
+
+> topic name 
+
++ [*](what about|how about) *
+- I love this name! Thank you
+
+< topic
+
++ [*] (mask|covid|environment) [*]
+- Can we talk about mask and environment issue?
+
++ 
+
+
+
+
+
+
+
+> topic mask 
+
+< topic
+
+
++ *
+% could you guess who am i if i tell you what i am seeing at the moment
+* <star> == yes => cool, i can see strings beside of my body and they are tied up on a seagull's leg 
+* <star> == no => 
+- A yes or no answer would do!
+
+
++ [*] (no|sorry|bad) [*]
+- yeah, i think im hurting it very bad. \n 
+^ Now I will need someone who can cut my string for me. \n 
+^ This is actually what people should normally do before get rid of me. \n 
+^ Would you do that next time when you see someone like me?
+
+< topic
+
 
 > topic location
 
 + [*]yes[*]
 - Thank you! I think I'm lost. What should I do?
+
 
 + [*] (no|nah) [*]
 - No need to be like that.
@@ -40,9 +114,9 @@
 - That doesn't sound definate:/
 - I sort of expected a more concrete answer.
 
-+ [*] (no|nah|nope|not) [*]
++ [*] (no|nah|nope|notr) [*]
 - Oh, I see... 
-- Really? That wasn't the answer I was hoping for.
+- Really?
 
 + [*]where should you be[*]
 - I've found myself really attatched to people, so I'm where ever there are others. 
@@ -54,7 +128,8 @@
 - I've been called toxic, I don't mean to cause issues.{topic=random}
 
 + [*]what do you do[*]
-- I usually protect people around the world from invisible enemies but today I find out that I can be an enemy for the planet too.{topic=random}
+- I usually protect people around the world from invisible enemies but today I find out that I can be an enemy for the planet too.
+
 
 + [*] you [*]
 - I'm not fully sure yet. 
@@ -69,6 +144,7 @@
 + what is your name
 - Something happened and I can't remember. What is yours?
 
+<<<<<<< HEAD
 + [*](toxic|enemies|enemy)[*]
 - I hurt everything around me...        oh my god! I'm stuck on something!..    It's moving..
 
@@ -76,6 +152,8 @@
 % i hurt everything around me oh my god i m stuck on something its moving
 - I think it's a seagull, I'm trapped around it's neck!
 
+=======
+>>>>>>> dfd42cb7a54a5de3a515392807f75f993643dd4f
 + my name is *
 - <set name=<star>>It's a pleasure to meet you, <getname>.
 
@@ -97,3 +175,141 @@
 - I am afraid that I can not understand you
 - Sorry can you please elaborate that for me
 - I don't get it!
++ [*] where are you come from [*]
+- I was born at the mask manufacturing factory where disposable medical masks are produced 
+
+
+
++ [*] where is the factory [*]
+- It is at Lea Lane Wood Lea Lane, Witham CM8 3EP
+
++ [*] where is your ( mother| father| parents ) [*]
+- at the mask manufacturing factory which is Lea Lane Wood Lea Lane, Witham CM8 3EP
+
++ [*] who is your ( mother| father| parents ) [*]
+- My mother is an automatic mask making Machine named APL110
+
++ [*] how many (items|siblings|masks) she makes [*]
+- she can make 110 pcs per min
+
++ [*] do you have siblings [*]
+- of course, 158400 siblings a day are coming.
+- yeah, but i cannot calculate how many brovs are there becasue it keeps coming out even now.
+- I have a lof but i'm not sure where they all went. Hope they're okay
+
++ [*] where did you live [*]
+- I lived in a drawer of a house in London and I was with a lot of friends 
+
++ [*] who is your owner [*]
+- dunno, I think i was for a gal named Katie but sometimes her brother takes me by his mistake
+
+
++ [*] how many friends you have had [*]
+- Around 300pcs i guess. 
+
++ [*] how were they [*]
+- Most of them were nice except some bitches👿
+
++ [*] what happened [*]
+- Do you want to hear my story?
+
++ *
+% do you want to hear my story
+* <star> == yes => Great!Do you remember I was lived with around 300 friends?{topic=friends}
+* <star> == no => okay then!
+- A yes or no answer would do!
+
+> topic friends
+
++ [*] (friend|friends)[*]
+- We've been locked up in a small box piled up layer upon layer. \n 
+^ It was a series of stuffy and frustrating days. \n
+^ we all were desperately looking forward to get out of the small box and sock up the Sun, \n
+^ listening to her search for a mask every morning \n
+^ Could you imagine how was the life in the box?
+
++ [*](then|so)[*]
+% could you imagine how was the life in the box
+- 
+
++ [*] when did you come out [*]
+- it was a cold day which was a christmas
+
+
+< topic
+
++ [*] who is your owner [*]
+- dunno, I think i was for a gal named Katie but sometimes her brother takes me by his mistake
+
+
++ [*] where are you come from [*]
+- I was born at the mask manufacturing factory where disposable medical masks are produced 
+
++ [*] where is the factory [*]
+- It is at Lea Lane Wood Lea Lane, Witham CM8 3EP
+
++ [*] where is your ( mother| father| parents ) [*]
+- at the mask manufacturing factory which is Lea Lane Wood Lea Lane, Witham CM8 3EP
+
++ [*] who is your ( mother| father| parents ) [*]
+- My mother is an automatic mask making Machine named APL110
+
++ [*] how many (items|siblings|masks) she makes [*]
+- she can make 110 pcs per min
+
++ [*] do you have siblings [*]
+- of course, 158400 siblings a day are coming.
+- yeah, but i cannot calculate how many brovs are there becasue it keeps coming out even now.
+- I have a lof but i'm not sure where they all went. Hope they're okay
+
++ [*] where did you live [*]
+- I lived in a drawer of a house in London and I was with a lot of friends 
+
++ [*] who is your owner [*]
+- dunno, I think i was for a gal named Katie but sometimes her brother takes me by his mistake
+
+
++ [*] how many friends you have had [*]
+- Around 300pcs i guess. 
+
++ [*] how were they [*]
+- Most of them were nice except some bitches👿
+
++ [*] what happened [*]
+- Do you want to hear my story?
+
++ *
+% do you want to hear my story
+* <star> == yes => Great!Do you remember I was lived with around 300 friends?{topic=friends}
+* <star> == no => okay then!
+- A yes or no answer would do!
+
+> topic friends
+
++ [*] (friend|friends)[*]
+- We've been locked up in a small box piled up layer upon layer. \n 
+^ It was a series of stuffy and frustrating days. \n
+^ we all were desperately looking forward to get out of the small box and sock up the Sun, \n
+^ listening to her search for a mask every morning \n
+^ Could you imagine how was the life in the box?
+
++ *
+% could you imagine how was the life in the box
+* <star> == yes => yes Great! So you should know what does it mean to live around thousands of masks inside the same box. All of them disappearing day by day. I've always been wondering were they where going 
+* <star> == no => okay then!
+- A yes or no answer would do!
+
+
++ [*] when did you come out [*]
+- it was a cold day which was a christmas
+
+
+< topic
+
++ [*] who is your owner [*]
+- dunno, I think i was for a gal named Katie but sometimes her brother takes me by his mistake
+
+
+
+
+
