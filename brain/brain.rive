@@ -66,7 +66,7 @@
     - I'm so glad you can relate. I don't get how I ended up here. I should really be somewhere else!{weight=4}
     - I'm glad I'm not alone! I'm not sure how I got here, I'm meant to be somewhere else.{weight=4}
     - I'm happy you feel the same way, I REALLY shouldn't be HERE.{weight=2}
-    - It's great to know others feel the same, I feel isolated from others sometimes, some people call me toxic.
+    - It's great to know others feel the same, I feel isolated from others sometimes, some people call me toxic.{topic=seagull}
 
     + [*] (guess|maybe|possibly) [*] 
     - That doesn't sound definate:/
@@ -92,11 +92,8 @@
     + [*]what are you[*]
     - Not human that's for sure... you guys are kind of horrid... I was protecting one of you from that virus... what was the name of it again?{topic=random}
 
-    + [*](why|what)[*]
+    + [*](what|why)[*]
     - I'm sure there was some sort of accident, a mistake... I'm sorry that I cant remember much at the moment. I know I was helping someone out because of that virus... what was the name of it again?{topic=random}
-
-    + [*]toxic[*]
-    - I've been called toxic, I don't mean to cause issues.{topic=seagull}
 
     + [*](remember|remembered)[*]
     - I'm getting small bits and pieces, a lot of being pushed around.
